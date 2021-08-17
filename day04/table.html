@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>표 만들기</title>
+        <style>
+            table, td, th{
+                /* border:1px solid #5c5cc9; */
+                border-width: 0.5px;
+                border-style:dotted;
+                border-color:rgb(138, 134, 134);
+                border-collapse: collapse;
+                margin: 20px;
+                width:300px;
+                /* text-align: right; */
+            }
+            td, th{ 
+                height: 50px;
+                padding: 10px 20px;
+                            /* top right bottom left */
+            }
+           
+            caption{
+                margin-bottom: 10px;
+            }
+            thead{
+                background-color:rgb(235, 238, 253);
+            }
+            tbody{
+            /* text-align: left; */
+            /* text-align: right; */
+            text-align: center;
+            /* vertical-align:top; */
+            /* vertical-align:middle; */
+            vertical-align:bottom;
+            /* 수평 정렬(text-align)-left/center/right */
+            /* 수직 정렬(vartical-align)-top/middle/bottom */
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>프로축구 경기 일정</caption>
+            <thead>
+            <tr class="title">
+                <th>구단</th>
+                <th>시합</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>울산</td>
+                <td>울산 VS 인천</td>
+            </tr>
+            <tr>
+                <td>부산</td>
+                <td>부산 VS 대전</td>
+            </tr>
+            <tr>
+                <td>서울</td>
+                <td>서울 VS 전북</td>
+            </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
