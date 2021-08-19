@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI 요소 선택자</title>
+    <style>
+        fieldset{
+            margin-bottom: 20px;
+        }
+        input:disabled{
+            background-color: #ddd;
+            border:1px solid #ccc;
+            border-radius: 2px;
+        }
+        input:checked + span{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <label for="name">이름</label>
+            <input type="text" id="name" value="모상현" disabled>
+        </fieldset>
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 가능)</p>
+            <label><input type="radio" name="subject" value="speaking"><span>회화</span></label>
+            <label><input type="radio" name="subject" value="grammer"><span>문법</span></label>
+            <label><input type="radio" name="subject" value="writing"><span>작문</span></label>
+        </fieldset>
+        <fieldset>
+            <legend>메일링</legend>
+            <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요(복수 선택 가능)</p>
+            <label><input type="checkbox" name="mailing" value="news">해외 단신</label>
+            <label><input type="checkbox" name="mailing" value="dialog">5분 회화</label>
+            <label><input type="checkbox" name="mailing" value="pops">모닝 팝스</label>
+        </fieldset>
+    </form>
+</body>
+</html>
