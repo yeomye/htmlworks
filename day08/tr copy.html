@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform 속성</title>
+    <style>
+        div{margin-left: 30px;
+        font-size: large;
+    font-weight: bold;}
+      
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: olivedrab;
+            text-align: center;
+            padding-top: 50px;
+        }
+        div.b:hover{
+            /* 회전 - deg(degree:각도) */
+            transform: rotate(20deg);
+        }
+        div.c{
+            width: 150px;
+            height: 80px;
+            background-color: olivedrab;
+            text-align: center;
+            padding-top: 50px;
+            
+        }
+        div.c:hover{
+            /* 이동 */
+            transform: translateX(50px);
+        }
+        div.d{
+            width: 150px;
+            height: 80px;
+            background-color: olivedrab;
+            text-align: center;
+            padding-top: 50px;
+        
+        }
+        div.d:hover{
+               /* 크기 변경 */
+            /* transform: scaleY(1.5); */
+            transform: scaleY(0.8);
+        }
+    </style>
+</head>
+<body>
+
+
+    <h2>Transform: rotate(20deg)</h2>
+    <div class="b">모</div>
+
+    <h2>Transform: translateX(50px)</h2>
+    <div class="c">상</div>
+
+    <h2>Transform: scaleY(1.5))</h2>
+    <div class="d">현</div>
+
+</body>
+</html>
