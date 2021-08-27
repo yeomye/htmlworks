@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0px auto;}
+
+/* header 스타일 */
+ header{height: 80px; background-color: rgb(121, 121, 121);
+    margin-bottom: 20px;}
+
+/* logo 스타일 */
+#logo{
+    width: 250px;
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+    /* height와 같은 크기이면 수직 가운데 정렬됨 */
+}
+#logo a{text-decoration: none; color: #fff;}
+#logo a:hover{color:rgb(153, 153, 153)}
+
+/* nav 스타일 */
+nav{height: 80px; line-height: 30px; float: right;}
+nav ul{list-style: none; text-align: right; margin-right: 50px;}
+nav ul li{display: inline-block; margin: 30px;}
+nav ul li a{text-decoration: none; color:#fff}
+nav ul li a:hover{color:rgb(153, 153, 153)}
+
+/* 본문스타일 */
+section{ padding: 20px 20px 0px 20px; width:900px; margin: 0 auto;}
+h2{font-size:1.5em;}
+h3 {font-size:1.0em; margin-bottom: 10px;}
+p {line-height:2; font-size:14px;}
+article{border:1px solid #ccc; border-radius: 5px;
+    width:400px; height: 200px; margin: 10px; padding: 10px;}
+article.at1{float: left;}
+article.at1:hover{background:rgb(249, 255, 226);}
+article.at2{float: left;}
+article.at2:hover{background:rgb(249, 255, 226);}
+article.at3{float: left;}
+article.at3:hover{background:rgb(249, 255, 226);}
+article.at4{float: left; margin-bottom: 150px;}
+article.at4:hover{background:rgb(249, 255, 226);}
+article.type{width: 28%; height: 500px; float: left; margin-bottom: 100px;}
+article.type h3{background:url(../images/bg-note.png) no-repeat;
+                padding-left: 30px; margin: 10px 0px; font-size: 1.1em;}
+article.type dl dt{font-weight: bold; margin 5px 0px;}
+article.type dl dd{line-height: 1.7; font-size: 0.9em;}
+
+/* footer 스타일 */
+footer {width:900px; height:100px; clear: left;
+       background-color:rgb(226, 226, 226);}
+footer > p {font-size:0.7em; padding: 15px 10px 10px 15px;}
+
