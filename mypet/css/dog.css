@@ -2,8 +2,8 @@
 #container{width: 1000px; margin: 0px auto;}
 
 /* header 스타일 */
- header{height: 80px; background-color: rgb(121, 121, 121);
-    margin-bottom: 20px;}
+ header{width: 900px; height: 80px; background-color: rgb(121, 121, 121);
+    margin-bottom: 20px; margin-left: 50px;}
 
 /* logo 스타일 */
 #logo{
@@ -28,20 +28,20 @@ section{ padding: 20px 20px 0px 20px; width:900px; margin: 0 auto;}
 h2{font-size:1.5em;}
 h3 {font-size:1.0em; margin-bottom: 10px;}
 p {line-height:2; font-size:14px;}
+
 article{border:1px solid #ccc; border-radius: 5px;
-    width:400px; height: 200px; margin: 10px; padding: 10px;}
-article.at1{float: left;}
-article.at1:hover{background:rgb(249, 255, 226);}
-article.at2{float: left;}
-article.at2:hover{background:rgb(249, 255, 226);}
-article.at3{float: left;}
-article.at3:hover{background:rgb(249, 255, 226);}
-article.at4{float: left; margin-bottom: 150px;}
-article.at4:hover{background:rgb(249, 255, 226);}
+    width:400px; height: 200px; margin: 10px; padding: 10px; float:left ;}
+
+article.at1{background: url(../images/1.png) no-repeat right bottom;}
+article.at4{margin-bottom: 150px; background: url(../images/2.png) no-repeat right bottom;}
+article.at1:hover{background-color:rgb(255, 221, 249); transition: 2s;}
+article.at2:hover{background-color:rgb(227, 237, 186); transition: 2s;}
+article.at3:hover{background-color:rgb(173, 206, 192); transition: 2s;}
+article.at4:hover{background-color:rgb(180, 199, 226); transition: 2s;}
 article.type{width: 28%; height: 500px; float: left; margin-bottom: 100px;}
 article.type h3{background:url(../images/bg-note.png) no-repeat;
                 padding-left: 30px; margin: 10px 0px; font-size: 1.1em;}
-article.type dl dt{font-weight: bold; margin 5px 0px;}
+article.type dl dt{font-weight: bold; margin: 5px 0px;}
 article.type dl dd{line-height: 1.7; font-size: 0.9em;}
 
 /* footer 스타일 */
